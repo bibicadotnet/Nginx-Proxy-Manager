@@ -1,10 +1,6 @@
 # Nginx-Proxy-Manager
 1. Login root
-2. Update IOS and reboot the system
-```shell
-sudo apt update && sudo apt upgrade -y && sudo reboot
-```
-3. Install Webinoly PHP 7.4
+2. Cài đặt Nginx Proxy Manager
 ```shell
 sudo wget --no-check-certificate https://raw.githubusercontent.com/bibicadotnet/Nginx-Proxy-Manager/main/setup.sh -O setup_nginx_proxy_manager.sh && sudo chmod +x setup_nginx_proxy_manager.sh && sudo ./setup_nginx_proxy_manager.sh
 ```
