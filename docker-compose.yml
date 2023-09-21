@@ -10,3 +10,7 @@ services:
     volumes:
       - ./data:/data
       - ./letsencrypt:/etc/letsencrypt
+networks:
+  default:
+    external: true
+    name: scoobydoo
