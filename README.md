@@ -11,3 +11,9 @@ Info admin
 Email:    admin@example.com
 Password: changeme
 ```
+
+
+Tinh chỉnh docker
+```shell
+docker-compose up -d --build --remove-orphans --force-recreate
+```
