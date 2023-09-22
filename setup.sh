@@ -7,6 +7,5 @@ sudo systemctl enable docker
 apt install docker-compose -y
 mkdir /root/nginxproxymanager
 cd /root/nginxproxymanager
-docker network create scoobydoo
 sudo wget --no-check-certificate https://raw.githubusercontent.com/bibicadotnet/Nginx-Proxy-Manager/main/docker-compose.yml -O /root/nginxproxymanager/docker-compose.yml
 docker-compose up -d
